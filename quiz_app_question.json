@@ -1,6 +1,5 @@
 {
-"question_prompts": [{
-    "What year did Nigeria get independence?\n(a)1959\n(b)1960\n(c)1961\n(d)1962": "b",
-    "How many primary colours are there?\n(a)1\n(b)2\n(c)3\n(d)4": "c"
-    }]
+"question_1" : "What year did Nigeria get independence?\n(a)1959\n(b)1960\n(c)1961\n(d)1962",
+"question_2" : "How many primary colours are there?\n(a)1\n(b)2\n(c)3\n(d)4",
+"question_3" : "What colour are Strawberries?\n(a)yellow\n(b)red\n(c)blue\n(d)green"
 }

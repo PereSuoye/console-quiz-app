@@ -13,20 +13,21 @@ with open(file_name, "w") as f:
 
 with open(file_name) as f:
     questions = json.load(f)
+
 class Question:
     def __init__(self, prompt, answer):
         self.prompt = prompt
         self.answer = answer
 
 questions_and_answers = [
-    Question(questions[0], "b"),
-    Question(questions[1], "c"),
-    Question(questions[2], "b"),
+    Question(questions_prompts[0], "b"),
+    Question(questions_prompts[1], "c"),
+    Question(questions_prompts[2], "b"),
 ]
-def play_quiz(questions):
+def play_quiz(questions_prompts):
     score = 0
     for question in questions:
-        answer = input(str(questions.prompt))
+        answer = input(questions.prompt)
         if answer == questions.answer:
             score += 1
     print(f"You got {str(score)} / {str(len(questions))} correct.")
